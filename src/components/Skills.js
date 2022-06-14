@@ -23,8 +23,8 @@ const Skills = () => {
         Skills.
       </h1>
       <p className="font-press-start-2P text-xs md:text-base mb-16">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque,
-        perspiciatis!
+        I have been learning Web Development for the past one and a half years
+        and have many different skills in the field. They are listed below:
       </p>
       <div className="flex flex-col md:flex-row justify-between">
         <div className="grid grid-cols-5 gap-8">

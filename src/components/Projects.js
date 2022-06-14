@@ -7,8 +7,8 @@ const Projects = () => {
         Projects.
       </h1>
       <p className="font-press-start-2P text-xs md:text-base mb-16">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque,
-        perspiciatis!
+        A few of my projects are displayed here. For more please visit my GitHub
+        Profile.
       </p>
       <section className="text-gray-600 body-font">
         <div className="container px-5 mx-auto">
@@ -136,6 +136,15 @@ const Projects = () => {
           </div>
         </div>
       </section>
+      <a
+        href="https://github.com/SayanMunshi-blank36"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <button className="btn font-press-start-2P text-sm mt-8 border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white px-4 py-2 rounded-lg">
+          View More
+        </button>
+      </a>
     </div>
   );
 };

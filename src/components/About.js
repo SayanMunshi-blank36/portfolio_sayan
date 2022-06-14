@@ -1,5 +1,11 @@
 import React from "react";
-import { FaTwitter, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaLinkedin,
+  FaEnvelope,
+  FaInstagram,
+  FaGithub,
+} from "react-icons/fa";
 
 const About = () => {
   return (
@@ -8,12 +14,21 @@ const About = () => {
         About me.
       </h1>
       <div className="flex flex-col-reverse md:flex-row items-center justify-center mx-4">
-        <p className="font-press-start-2P text-xs md:text-base md:mr-8 my-4 text-justify">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum,
-          reprehenderit eveniet fugit autem suscipit recusandae labore tempora
-          natus ea nobis dolores quibusdam vitae temporibus mollitia dicta
-          cupiditate quam rem! Ratione.
-        </p>
+        <div>
+          <p className="font-press-start-2P text-xs md:text-base md:mr-8 my-4 text-justify">
+            Hi I am Sayan Munshi, a budding Fullstack Developer. I am currently
+            pursuing my <span className="text-red-600">B.Tech</span> Degree on{" "}
+            <span className="text-red-600">Information Teachnology</span> from{" "}
+            <span className="text-red-600">
+              Institute of Engineering and Management, Kolkata
+            </span>
+            .
+          </p>
+          <p className="font-press-start-2P text-xs md:text-base md:mr-8 my-4 text-justify">
+            I am looking for opportunities to work on the industry. I am really
+            passionate about the Web and its technologies{" "}
+          </p>
+        </div>
         <img
           src="./pic.jpg"
           alt="pic"
@@ -21,10 +36,37 @@ const About = () => {
         />
       </div>
       <div className="flex items-center justify-center md:justify-start md:items-start">
-        <FaTwitter className="mx-2 text-2xl md:text-4xl cursor-pointer hover:text-red-600 hover:scale-110 transition-all" />
-        <FaInstagram className="mx-2 text-2xl md:text-4xl cursor-pointer hover:text-red-600 hover:scale-110 transition-all" />
-        <FaLinkedin className="mx-2 text-2xl md:text-4xl cursor-pointer hover:text-red-600 hover:scale-110 transition-all" />
-        <FaEnvelope className="mx-2 text-2xl md:text-4xl cursor-pointer hover:text-red-600 hover:scale-110 transition-all" />
+        <a
+          href="https://github.com/SayanMunshi-blank36"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub className="mx-2 text-2xl md:text-4xl cursor-pointer hover:text-red-600 hover:scale-110 transition-all" />
+        </a>
+        <a href="https://twitter.com/blank_36" target="_blank" rel="noreferrer">
+          <FaTwitter className="mx-2 text-2xl md:text-4xl cursor-pointer hover:text-red-600 hover:scale-110 transition-all" />
+        </a>
+        <a
+          href="https://www.instagram.com/sayanmunshi36/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaInstagram className="mx-2 text-2xl md:text-4xl cursor-pointer hover:text-red-600 hover:scale-110 transition-all" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sayan-munshi-714a401b8/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedin className="mx-2 text-2xl md:text-4xl cursor-pointer hover:text-red-600 hover:scale-110 transition-all" />
+        </a>
+        <a
+          href="mailto:sayanmunshi36@gmil.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaEnvelope className="mx-2 text-2xl md:text-4xl cursor-pointer hover:text-red-600 hover:scale-110 transition-all" />
+        </a>
       </div>
     </div>
   );
