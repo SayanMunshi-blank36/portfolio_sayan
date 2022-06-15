@@ -26,9 +26,11 @@ const Header = () => {
       <p className="font-press-start-2P my-4 flex text-[0.6rem] md:text-base">
         I am into <span className="ml-4">{text}</span> <Cursor />
       </p>
-      <button className="font-press-start-2P text-xs md:text-sm my-4 border-2 border-red-500 p-2 md:p-3 rounded-md hover:bg-red-500 hover:text-white transition-all">
-        My Resume
-      </button>
+      <a href="/Sayan_Resume.pdf" target="_blank" rel="noreferrer">
+        <button className="font-press-start-2P text-xs md:text-sm my-4 border-2 border-red-500 p-2 md:p-3 rounded-md hover:bg-red-500 hover:text-white transition-all">
+          My Resume
+        </button>
+      </a>
     </div>
   );
 };

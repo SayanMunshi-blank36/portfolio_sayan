@@ -102,16 +102,16 @@ const Projects = () => {
                 />
                 <div className="p-6">
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                    Goals App: An App to keep track of your Goals.
+                    Goalsetter: An App to keep track of your Goals.
                   </h1>
                   <p className="leading-relaxed mb-3">
-                    It is an webapp make using the MERN Stack which keeps a
+                    It is an webapp made using the MERN Stack which keeps a
                     track of user's Goals.
                   </p>
                   <div className="flex items-center flex-wrap ">
                     <button className="btn px-3 mx-1 rounded-md bg-red-600 border-2 border-red-600 text-white hover:bg-white hover:text-red-600 transition-all">
                       <a
-                        href="https://anime-fullstack-blog-frontend.vercel.app/"
+                        href="https://mernappsayan.herokuapp.com/login"
                         target="_blank"
                         rel="noreferrer"
                         className=" inline-flex items-center md:mb-2 lg:mb-0"
@@ -121,7 +121,47 @@ const Projects = () => {
                     </button>
                     <button className="btn px-3 mx-1 rounded-md bg-white border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition-all">
                       <a
-                        href="https://github.com/SayanMunshi-blank36/Anime_Blog_FullStack"
+                        href="https://github.com/SayanMunshi-blank36/GoalSetter"
+                        target="_blank"
+                        rel="noreferrer"
+                        className=" inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visit Github
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="p-4 md:w-1/3">
+              <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <img
+                  className="lg:h-48 md:h-36 w-full object-cover object-center"
+                  src="/project_4.png"
+                  alt="personal_blog_img"
+                />
+                <div className="p-6">
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                    Personal Blog: This is my Personal Blog.
+                  </h1>
+                  <p className="leading-relaxed mb-3">
+                    It is my personal blog made using NextJs and Strapi
+                    HeadlessCMS.
+                  </p>
+                  <div className="flex items-center flex-wrap ">
+                    <button className="btn px-3 mx-1 rounded-md bg-red-600 border-2 border-red-600 text-white hover:bg-white hover:text-red-600 transition-all">
+                      <a
+                        href="https://sayan-munshi-blogs.vercel.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className=" inline-flex items-center md:mb-2 lg:mb-0"
+                      >
+                        Visit Site
+                      </a>
+                    </button>
+                    <button className="btn px-3 mx-1 rounded-md bg-white border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white transition-all">
+                      <a
+                        href="https://github.com/SayanMunshi-blank36/personal_blog"
                         target="_blank"
                         rel="noreferrer"
                         className=" inline-flex items-center md:mb-2 lg:mb-0"
