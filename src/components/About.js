@@ -18,7 +18,7 @@ const About = () => {
           <p className="font-press-start-2P text-xs md:text-base md:mr-8 my-4 text-justify">
             Hi I am Sayan Munshi, a budding Fullstack Developer. I am currently
             pursuing my <span className="text-red-600">B.Tech</span> Degree on{" "}
-            <span className="text-red-600">Information Teachnology</span> from{" "}
+            <span className="text-red-600">Information Technology</span> from{" "}
             <span className="text-red-600">
               Institute of Engineering and Management, Kolkata
             </span>
